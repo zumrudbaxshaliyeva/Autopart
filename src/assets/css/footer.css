@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.footer {
+    width: 100%;
+    height: 649.59px;
+    background: url(../images/bg-foot.jpg) no-repeat top center;
+    background-size: cover;
+    padding-top: 113px;
+
+}
+
+.footer-title {
+    font-size: 18px;
+    font-family: Poppins;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer ul {
+    list-style-type: none;
+    text-decoration: none;
+    padding-left: 0px;
+}
+
+.footer-link {
+    text-decoration: none;
+    font-size: 14px;
+    padding: 3px 0px;
+    font-family: Poppins;
+    color: #DDDDDD;
+}
+
+.footer-link-hover:hover {
+    color: #fdb819;
+
+}
+
+.footer-icon {
+    color: #DDDDDD;
+    font-size: 16px;
+    margin-right: 20px;
+    float: left;
+    line-height: 20px;
+}
+
+.footer-link-number {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fdb819;
+    text-decoration: none;
+}
+
+.sign {
+    width: 100%;
+    height: 165px;
+    background: #000000b3;
+    color: #fff;
+}
+
+.footer-newsletter h3 {
+    font-size: 18px;
+    color: #ddd;
+    font-weight: 600;
+    float: left;
+    margin-right: 50px;
+    line-height: 40px;
+
+}
+
+.social-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+
+}
+
+.social-icon {
+    font-size: 14px;
+    color: #fff;
+}
+
+.social-link {
+    color: #ddd;
+    background-color: #cccccc4d;
+    font-size: 18px !important;
+    width: 45px;
+    padding: 0 !important;
+    height: 45px;
+    line-height: 43px;
+    text-align: center;
+    display: block;
+    border-radius: 50%;
+}
+
+.social-link:hover {
+    background-color: #fff;
+    color: #000 !important;
+}
+
+.social-link:hover .social-icon {
+    color: #000;
+}
+
+.mail-section {
+    border: 0;
+    color: #999;
+    width: 395.73px;
+    background: #1c1c1c;
+    height: 40px;
+    padding: 0 20px;
+    border-radius: 20px;
+    float: left;
+    outline: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.mail-section input {
+    width: 100%;
+    height: auto;
+    border: none;
+    margin: auto;
+    background-color: transparent;
+}
+.email-btn{
+    background-color: transparent;
+    border: none;
+}
+.paper-plane{
+    display: inline-block;
+    font: normal normal normal 14px / 1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    color:#fff
+}
+.footer-bottom-link{
+    color: #666;
+    font-size: 12px;
+}
+.footer-bottom-link-diff{
+    color: #fff ;
+    text-decoration: none;
+}
+.footer-bottom{
+    padding-top: 40px;
+}
+.paypal{
+    display: flex !important;
+    justify-content: end;
+}
+.footer-img{
+    width: 100%;
+    position: relative !important;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    z-index: 0;
+}
+
+.footer-img div:hover.footer-img-hover div{
+    display: block !important;
+}
+.footer-img-hover{
+    display: none;
+    width: 100% !important;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute !important;
+    z-index: 1;
+    /* top: 0; */
+}
+.footer-img-hover div{
+    width: 67.5px !important;
+    height: 67.5px !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center !important;
+    display: none !important;
+}
+.footer-img-hover div img{
+    width: 20px;
+    height: 20px;
+}
+.footer-img div{
+    width: 67.5px;
+    height: 67.5px;
+}
+.footer-img div img{
+    width: 100%;
+    
+}

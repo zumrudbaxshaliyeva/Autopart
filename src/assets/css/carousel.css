@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.carousel-indicators{
+    display: none;
+}
+.carousel img{
+    width: 100%;
+    height:537px;
+    background: #ffffff;
+    background-position: left top;
+    background-repeat: repeat;
+    background-position: center;
+}
+.carousel-title{
+    font-size: 36px;
+    font-family: Playball;
+    font-weight: 400;
+}
+.carousel-title-diff{
+    color: #fdb819;
+margin-right:8px ;
+}
+.carousel-title2{
+    margin-right: 20px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: Poppins;
+}
+.carousel-title-diff2{
+    color: #fdb819;
+}
+.carousel-text{
+    font-size: 16px;
+    font-family: Poppins;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.shop-btn{
+    text-decoration: none;
+    text-transform: none;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 15px !important;
+    height: 35px;
+    background: #fdb819;
+    line-height: 34px !important;
+    padding: 0 25px !important;
+    vertical-align: top;
+    display: inline-block;
+    border-radius: 18px;
+}
+.shop-btn:hover{
+    color: #000;
+    cursor: pointer;
+}
+.carousel-caption{
+    bottom: 9.25rem;
+}
+.carousel-control-prev{
+    left: -45px;
+    opacity: 1;
+    visibility: visible;
+    font-size: 40px;
+    width: 120px;
+    height: 120px;
+    top: 50%;
+    margin-top: -60px;
+    background: #fff6;
+    border-color: #fff6;
+    box-shadow: none;
+color:#000 !important;
+    top: 50%;
+    left: -45px;
+    z-index: 999;
+    text-align: center;
+    border-radius: 50%;
+}
+.carousel-control-prev-icon{
+    line-height: 120px;
+    color: #000;
+}
+.carousel-control-next{
+    right: -45px;
+    opacity: 1;
+    visibility: visible;
+    font-size: 40px;
+    
+    width: 120px;
+    height: 120px;
+    top: 50%;
+    margin-top: -60px;
+    background: #fff6;
+    border-color: #fff6;
+    box-shadow: none;
+    position: absolute;
+    z-index: 999;
+    text-align: center;
+    border-radius: 50%;
+
+}
